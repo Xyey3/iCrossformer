@@ -13,7 +13,7 @@ pip install -r requirements.txt
 2. Train and evaluate the model. We provide all the above tasks under the folder ./scripts/. You can reproduce the results as the following examples:
 
 ```
-# Multivariate forecasting with iTransformer
+# Multivariate forecasting with iCrossformer
 bash ./scripts/multivariate_forecasting/ECL/iCrossformer.sh
 
 # Ablation Study
