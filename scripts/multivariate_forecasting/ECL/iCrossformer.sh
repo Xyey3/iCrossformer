@@ -52,7 +52,7 @@ python -u run.py \
   --root_path ./dataset/electricity/ \
   --data_path electricity.csv \
   --model_id ECL_96_336 \
-  --model 6 \
+  --model $model_name \
   --data custom \
   --features M \
   --seg_num 6 \
