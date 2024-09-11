@@ -1,7 +1,6 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=0
 
-model_name=iCrossformer
-seg_num=6
+model_name=RCrossformer
 
 python -u run.py \
   --is_training 1 \
@@ -11,7 +10,7 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seg_num $seg_num\
+  --seg_num 6 \
   --seq_len 96 \
   --pred_len 96 \
   --e_layers 3 \
@@ -21,6 +20,8 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512\
   --d_ff 512\
+  --batch_size 32 \
+  --learning_rate 0.0001 \
   --itr 1
 
 
@@ -32,7 +33,7 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seg_num $seg_num\
+  --seg_num 12 \
   --seq_len 96 \
   --pred_len 192 \
   --e_layers 3 \
@@ -42,6 +43,8 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512\
   --d_ff 512\
+  --batch_size 32 \
+  --learning_rate 0.0001 \
   --itr 1
 
 
@@ -53,7 +56,7 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seg_num $seg_num\
+  --seg_num 6 \
   --seq_len 96 \
   --pred_len 336 \
   --e_layers 3 \
@@ -63,6 +66,8 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512\
   --d_ff 512\
+  --batch_size 32 \
+  --learning_rate 0.0001 \
   --itr 1
 
 
@@ -74,7 +79,7 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
-  --seg_num $seg_num\
+  --seg_num 12 \
   --seq_len 96 \
   --pred_len 720 \
   --e_layers 3 \
@@ -84,4 +89,6 @@ python -u run.py \
   --des 'Exp' \
   --d_model 512\
   --d_ff 512\
+  --batch_size 32 \
+  --learning_rate 0.0001 \
   --itr 1

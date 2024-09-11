@@ -191,9 +191,10 @@ class Exp_Long_Term_Forecast(Exp_Basic):
 
         preds = []
         trues = []
-        folder_path = './test_results/' + setting + '/'
-        if not os.path.exists(folder_path):
-            os.makedirs(folder_path)
+        
+        # folder_path = './test_results/' + setting + '/'
+        # if not os.path.exists(folder_path):
+        #     os.makedirs(folder_path)
 
         self.model.eval()
         with torch.no_grad():

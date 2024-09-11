@@ -2,7 +2,7 @@ import os
 import torch
 from model import Informer, Reformer, Flowformer, Flashformer, \
     iTransformer, iInformer, iReformer, iFlowformer, iFlashformer, cTransformer, \
-    cCrossformer, iCrossformer,DSW_iTransformer
+    RCrossformer, cCrossformer,iCrossformer,DSW_iTransformer
 
 
 class Exp_Basic(object):
@@ -19,6 +19,7 @@ class Exp_Basic(object):
             'iFlowformer': iFlowformer,
             'iFlashformer': iFlashformer,
             'cTransformer':cTransformer,
+            'RCrossformer':RCrossformer,
             'cCrossformer':cCrossformer,
             'iCrossformer':iCrossformer,
             'DSW_iTransformer':DSW_iTransformer,

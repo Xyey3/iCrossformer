@@ -24,3 +24,6 @@ bash ./scripts/seg_num/24/ETT/iCrossformer_ETTh2.sh
 
 # Impact of batchsize
 bash ./scripts/batchsize/6/SolarEnergy/iCrossformer.sh
+
+# RCrossformer
+bash ./scripts/RCrossformer/Weather/RCrossformer.sh

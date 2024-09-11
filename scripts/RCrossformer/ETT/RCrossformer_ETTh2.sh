@@ -1,7 +1,7 @@
-export CUDA_VISIBLE_DEVICES=3
+export CUDA_VISIBLE_DEVICES=0
 
-model_name=iCrossformer
-seg_num=3
+model_name=RCrossformer
+seg_num=6
 
 python -u run.py \
   --is_training 1 \
