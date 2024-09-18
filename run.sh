@@ -49,14 +49,3 @@
 # bash ./scripts/seg_num/24/ETT/iCrossformer_ETTm1.sh
 # bash ./scripts/seg_num/24/Exchange/iCrossformer.sh
 
-# RCrossformer
-# bash ./scripts/RCrossformer/ECL/RCrossformer.sh
-# bash ./scripts/RCrossformer/ETT/RCrossformer_ETTh1.sh
-# bash ./scripts/RCrossformer/ETT/RCrossformer_ETTh2.sh
-# bash ./scripts/RCrossformer/ETT/RCrossformer_ETTm1.sh
-# bash ./scripts/RCrossformer/ETT/RCrossformer_ETTm2.sh
-# bash ./scripts/RCrossformer/Exchange/RCrossformer.sh
-# bash ./scripts/RCrossformer/SolarEnergy/RCrossformer.sh
-# bash ./scripts/RCrossformer/Traffic/RCrossformer.sh
-# bash ./scripts/RCrossformer/Weather/RCrossformer.sh
-
