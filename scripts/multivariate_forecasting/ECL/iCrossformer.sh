@@ -78,6 +78,7 @@ python -u run.py \
   --model $model_name \
   --data custom \
   --features M \
+  --patience 5 \
   --seg_num 6 \
   --seq_len 96 \
   --pred_len 720 \
